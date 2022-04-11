@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
 body {
   margin: 0;
   box-sizing: border-box;
@@ -11,9 +13,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-  padding-left: 20%;
-  padding-right: 20%;
 }
 .home-header {
   position: absolute;
@@ -23,4 +22,121 @@ body {
   top: 0px;
 
   background: #ec0344;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+  background-color: #ec0344;
+}
+
+.header-logo {
+  height: 45px;
+}
+
+.header-menu {
+  display: flex;
+  gap: 35px;
+}
+
+.header-menu-item {
+  font-family: "Sarala", sans-serif;
+  color: #000;
+  font-weight: 400;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.header-menu-item:hover {
+  border-bottom: 1.5px solid #ffff;
+}
+
+.main-content-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  padding-left: 20%;
+  padding-right: 20%;
+
+  margin-top: 55px;
+}
+
+.main-title {
+  font-family: "Righteous", cursive;
+  font-weight: 400;
+  font-size: 64px;
+  color: #ffff;
+
+  margin: 0;
+}
+.main-subtitle {
+  font-family: "Righteous", cursive;
+  font-weight: 200;
+  font-size: 24px;
+  color: #ffff;
+}
+
+.main-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e00f63;
+  width: 150px;
+  height: 60px;
+  border: none;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  font-family: "Sarala", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffff;
+  cursor: pointer;
+  text-decoration: none;
+}
+.main-button:hover {
+  border: 3px solid #e00f63;
+  background-color: transparent;
+}
+.main-image {
+  height: 370px;
+  margin-top: 50px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  height: 100px;  
+}
+.footer {
+  padding: 32px;
+  background-color: #e00f63;
+  font-size: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+}
+.footer-content{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer-content-text{
+  margin: 0px 0px 0px 0px;
 }
