@@ -3,7 +3,12 @@ import React from "react";
 
 import "./styles.css";
 
-import { ioasysLogo, googlePlay, appleStore } from "../../assets";
+import {
+  ioasysLogo,
+  googlePlay,
+  appleStore,
+  firstContentImage,
+} from "../../assets";
 
 function Home() {
   return (
@@ -16,7 +21,7 @@ function Home() {
             href="https://camp.ioasys.com.br"
             target="blank"
           >
-            Home
+            Início
           </a>
           <a
             className="header-menu-item"
@@ -24,7 +29,7 @@ function Home() {
             target="_blank"
             rel="noreferrer"
           >
-            Trilhas
+            Sobre
           </a>
           <a
             className="header-menu-item"
@@ -32,7 +37,7 @@ function Home() {
             target="_blank"
             rel="noreferrer"
           >
-            Carreiras
+            Download
           </a>
           <a
             className="header-menu-item"
@@ -40,28 +45,59 @@ function Home() {
             target="_blank"
             rel="noreferrer"
           >
-            Contato
+            Avaliações
+          </a>
+          <a
+            className="header-menu-item"
+            href="https://camp.ioasys.com.br/contato"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Documentos
+          </a>
+          <a
+            className="header-menu-item"
+            href="https://camp.ioasys.com.br/contato"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Artigos
+          </a>
+          <a
+            className="header-menu-item"
+            href="https://camp.ioasys.com.br/contato"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Dúvidas
           </a>
         </nav>
+        <button className="header-menu-button">
+          <span className="header-menu-button-text">Baixe grátis</span>
+        </button>
       </header>
       <div className="main-content-container">
         <div className="main-content">
-          <p className="main-text">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
-          </p>
-        </div>
-        <div className="main-content">
-          <p className="main-text">
-            Texto convidativo/explicativo do app móvel
-          </p>
+          <div className="main-content-texts">
+            <p className="main-content-text-1">
+              Entenda o passo a passo para retificar o nome e gênero
+            </p>
+            <p className="main-content-text-2">
+              Você que é trans consegue retificar seu nome e gênero, sem auxílio
+              de um advogado. A gente te ajuda.
+            </p>
+            <div className="main-content-buttons">
+              <button className="main-content-button-1">
+                <span className="main-content-button-1-text">Saiba mais</span>
+              </button>
+              <button className="main-content-button-2">
+                <span className="main-content-button-2-text">Baixe grátis</span>
+              </button>
+            </div>
+          </div>
+          <div>
+            <img src={firstContentImage} alt="First Image - Flagged People" />
+          </div>
         </div>
         <div className="main-content">
           <a
