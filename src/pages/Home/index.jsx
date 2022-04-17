@@ -5,12 +5,19 @@ import "./styles.css";
 
 import {
   ioasysLogo,
-  googlePlay,
-  appleStore,
   firstContentImage,
+  tickIcon,
+  docIcon,
+  mapIcon,
+  pinIcon,
+  downloadThemeImage,
+  appleStoreIcon,
+  playStoreIcon,
+  RatingStars,
+  ratingUser1,
 } from "../../assets";
 
-function Home() {
+const Home = () => {
   return (
     <div className="container">
       <header className="header">
@@ -95,25 +102,247 @@ function Home() {
               </button>
             </div>
           </div>
-          <div>
-            <img src={firstContentImage} alt="First Image - Flagged People" />
+          <img
+            src={firstContentImage}
+            alt="First Image - Flagged People"
+            className="main-content-image"
+          />
+        </div>
+        <div className="main-content-functionalities">
+          <div className="main-second-content-texts">
+            <p className="main-second-content-texts-title">
+              Como funciona o <br></br>RETIFICATRANS?
+            </p>
+            <p className="main-second-content-texts-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut erat
+              bibendum ornare urna, cursus eget convallis. Feugiat imperdiet
+              posuere justo, ultrices Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit. Ut erat bibendum ornare urna, cursus eget
+              convallis. Feugiat imperdiet posuere justo, ultrices Lorem ipsum
+              dolor sit amet, consectetur adipiscing elit. Ut erat bibendum
+              ornare urna, cursus{" "}
+            </p>
+          </div>
+          <div className="main-content-functionalities-boxes">
+            <div className="main-content-functionality-box">
+              <div className="main-content-functionality-box-header">
+                <img src={tickIcon} alt="Functionality Box Tick Icon" />
+                <p className="main-content-functionality-box-header-text">
+                  Checklist de <br />
+                  documentos
+                </p>
+              </div>
+              <p className="main-content-functionality-box-text">
+                Acompanhe seu processo de retificação através de uma organização
+                entre documentos que faltam, documentos já solicitados e os
+                documentos já recebidos.{" "}
+              </p>
+            </div>
+            <div className="main-content-functionality-box">
+              <div className="main-content-functionality-box-header">
+                <img src={docIcon} alt="Functionality Box Doc Icon" />
+                <p className="main-content-functionality-box-header-text">
+                  Leia artigos <br />
+                  selecionados
+                </p>
+              </div>
+              <p className="main-content-functionality-box-text">
+                Nosso time disponibiliza uma curadoria de conteúdos atualizados
+                sobre o universo LGBTQIA+, com foco em pessoas trans e
+                travestis.{" "}
+              </p>
+            </div>
+          </div>
+          <div className="main-content-functionalities-boxes">
+            <div className="main-content-functionality-box">
+              <div className="main-content-functionality-box-header">
+                <img src={mapIcon} alt="Functionality Box Map Icon" />
+                <p className="main-content-functionality-box-header-text">
+                  Explore nossos <br />
+                  mundos
+                </p>
+              </div>
+              <p className="main-content-functionality-box-text">
+                Acompanhe seu processo de retificação através de uma história
+                ilustrada com nossos personagens que explicam sobre os
+                documentos e te ajudam a conseguí-los.{" "}
+              </p>
+            </div>
+            <div className="main-content-functionality-box">
+              <div className="main-content-functionality-box-header">
+                <img src={pinIcon} alt="Functionality Box Pin Icon" />
+                <p className="main-content-functionality-box-header-text">
+                  Veja locais de <br />
+                  apoio
+                </p>
+              </div>
+              <p className="main-content-functionality-box-text">
+                Através dos nossos mapas você consegue verificar as ONGs e
+                cartórios mais próximos de você, auxiliando dessa forma no seu
+                processo de retificação.{" "}
+              </p>
+            </div>
           </div>
         </div>
-        <div className="main-content">
-          <a
-            href="https://play.google.com/store/apps/dev?id=6715068722362591614&hl=en"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img src={googlePlay} alt="Google Play Icon" />
-          </a>
-          <a
-            href="https://apps.apple.com/us/developer/supercell/id488106216"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img src={appleStore} alt="Google Play Icon" />
-          </a>
+        <div className="main-content-download">
+          <img src={downloadThemeImage} alt="Baixe Gratuitamente Image" />
+          <div className="main-content-donwload-texts">
+            <span className="main-content-download-texts-title">
+              Baixe gratuitamente
+            </span>
+            <p className="main-content-download-texts-text">
+              Baixe grátis no seu celular e tenha acesso a diversos recursos
+              para acompanhar o seu processo de retificação de nome e gênero
+              através do seu celular.
+            </p>
+            <div className="main-content-texts-icons">
+              <img src={appleStoreIcon} alt="Apple Store" />
+              <img src={playStoreIcon} alt="Google Play Store" />
+            </div>
+          </div>
+        </div>
+        <div className="main-content-ratings">
+          <h1 className="main-content-ratings-title">
+            O que estão falando sobre o aplicativo
+          </h1>
+          <p className="main-content-ratings-subtitle">
+            {" "}
+            confira as valiações na íntegra da Playstore e AppleStore
+          </p>
+        </div>
+        <div className="main-content-ratings-chart-container">
+          <div className="main-content-ratings-chart">
+            <div className="main-content-ratings-card">
+              <div>
+                <img src={RatingStars} alt="Rating Stars" />
+                <p className="main-content-ratings-card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+                  volutpat nisi ut purus condimentum condimentum. Ut non libero
+                  sed nulla ornare dignissim.{" "}
+                </p>
+                <div className="main-content-ratings-user">
+                  <img src={ratingUser1} alt="Rating User 1" />
+                  <div className="main-content-ratings-user-name-and-platform">
+                    <span className="main-content-ratings-user-name">
+                      Nome da pessoa
+                    </span>
+                    <span className="main-content-ratings-user-platform">
+                      Avaliação da PlayStore
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="main-content-ratings-card">
+              <div>
+                <img src={RatingStars} alt="Rating Stars" />
+                <p className="main-content-ratings-card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+                  volutpat nisi ut purus condimentum condimentum. Ut non libero
+                  sed nulla ornare dignissim.{" "}
+                </p>
+                <div className="main-content-ratings-user">
+                  <img src={ratingUser1} alt="Rating User 1" />
+                  <div className="main-content-ratings-user-name-and-platform">
+                    <span className="main-content-ratings-user-name">
+                      Nome da pessoa
+                    </span>
+                    <span className="main-content-ratings-user-platform">
+                      Avaliação da PlayStore
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="main-content-ratings-card">
+              <div>
+                <img src={RatingStars} alt="Rating Stars" />
+                <p className="main-content-ratings-card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+                  volutpat nisi ut purus condimentum condimentum. Ut non libero
+                  sed nulla ornare dignissim.{" "}
+                </p>
+                <div className="main-content-ratings-user">
+                  <img src={ratingUser1} alt="Rating User 1" />
+                  <div className="main-content-ratings-user-name-and-platform">
+                    <span className="main-content-ratings-user-name">
+                      Nome da pessoa
+                    </span>
+                    <span className="main-content-ratings-user-platform">
+                      Avaliação da PlayStore
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div></div>
+          </div>
+          <div className="main-content-ratings-chart">
+            <div className="main-content-ratings-card">
+              <div>
+                <img src={RatingStars} alt="Rating Stars" />
+                <p className="main-content-ratings-card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+                  volutpat nisi ut purus condimentum condimentum. Ut non libero
+                  sed nulla ornare dignissim.{" "}
+                </p>
+                <div className="main-content-ratings-user">
+                  <img src={ratingUser1} alt="Rating User 1" />
+                  <div className="main-content-ratings-user-name-and-platform">
+                    <span className="main-content-ratings-user-name">
+                      Nome da pessoa
+                    </span>
+                    <span className="main-content-ratings-user-platform">
+                      Avaliação da PlayStore
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="main-content-ratings-card">
+              <div>
+                <img src={RatingStars} alt="Rating Stars" />
+                <p className="main-content-ratings-card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+                  volutpat nisi ut purus condimentum condimentum. Ut non libero
+                  sed nulla ornare dignissim.{" "}
+                </p>
+                <div className="main-content-ratings-user">
+                  <img src={ratingUser1} alt="Rating User 1" />
+                  <div className="main-content-ratings-user-name-and-platform">
+                    <span className="main-content-ratings-user-name">
+                      Nome da pessoa
+                    </span>
+                    <span className="main-content-ratings-user-platform">
+                      Avaliação da PlayStore
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="main-content-ratings-card">
+              <div>
+                <img src={RatingStars} alt="Rating Stars" />
+                <p className="main-content-ratings-card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+                  volutpat nisi ut purus condimentum condimentum. Ut non libero
+                  sed nulla ornare dignissim.{" "}
+                </p>
+                <div className="main-content-ratings-user">
+                  <img src={ratingUser1} alt="Rating User 1" />
+                  <div className="main-content-ratings-user-name-and-platform">
+                    <span className="main-content-ratings-user-name">
+                      Nome da pessoa
+                    </span>
+                    <span className="main-content-ratings-user-platform">
+                      Avaliação da PlayStore
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div></div>
+          </div>
         </div>
       </div>
       <footer className="footer">
@@ -135,6 +364,6 @@ function Home() {
       </footer>
     </div>
   );
-}
+};
 
 export default Home;
