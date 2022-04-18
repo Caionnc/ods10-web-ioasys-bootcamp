@@ -407,7 +407,7 @@ body {
   width: 1034px;
   height: 32px;
 
-  margin: 0px;
+  margin-bottom: 70px;
 
   font-family: "Mulish", sans-serif;
   font-style: normal;
@@ -429,6 +429,7 @@ body {
   justify-content: space-between;
 
   gap: 80px;
+  margin-bottom: 152px;
 }
 
 .main-content-ratings-chart {

@@ -15,7 +15,13 @@ import {
   playStoreIcon,
   RatingStars,
   ratingUser1,
+  ratingUser2,
+  ratingUser3,
+  ratingUser4,
+  ratingUser5,
+  ratingUser6,
 } from "../../assets";
+import NecessaryDocs from "../../components/NecessaryDocs";
 
 const Home = () => {
   return (
@@ -242,7 +248,7 @@ const Home = () => {
                   sed nulla ornare dignissim.{" "}
                 </p>
                 <div className="main-content-ratings-user">
-                  <img src={ratingUser1} alt="Rating User 1" />
+                  <img src={ratingUser2} alt="Rating User 1" />
                   <div className="main-content-ratings-user-name-and-platform">
                     <span className="main-content-ratings-user-name">
                       Nome da pessoa
@@ -263,7 +269,7 @@ const Home = () => {
                   sed nulla ornare dignissim.{" "}
                 </p>
                 <div className="main-content-ratings-user">
-                  <img src={ratingUser1} alt="Rating User 1" />
+                  <img src={ratingUser3} alt="Rating User 1" />
                   <div className="main-content-ratings-user-name-and-platform">
                     <span className="main-content-ratings-user-name">
                       Nome da pessoa
@@ -287,7 +293,7 @@ const Home = () => {
                   sed nulla ornare dignissim.{" "}
                 </p>
                 <div className="main-content-ratings-user">
-                  <img src={ratingUser1} alt="Rating User 1" />
+                  <img src={ratingUser4} alt="Rating User 1" />
                   <div className="main-content-ratings-user-name-and-platform">
                     <span className="main-content-ratings-user-name">
                       Nome da pessoa
@@ -308,7 +314,7 @@ const Home = () => {
                   sed nulla ornare dignissim.{" "}
                 </p>
                 <div className="main-content-ratings-user">
-                  <img src={ratingUser1} alt="Rating User 1" />
+                  <img src={ratingUser5} alt="Rating User 1" />
                   <div className="main-content-ratings-user-name-and-platform">
                     <span className="main-content-ratings-user-name">
                       Nome da pessoa
@@ -329,7 +335,7 @@ const Home = () => {
                   sed nulla ornare dignissim.{" "}
                 </p>
                 <div className="main-content-ratings-user">
-                  <img src={ratingUser1} alt="Rating User 1" />
+                  <img src={ratingUser6} alt="Rating User 1" />
                   <div className="main-content-ratings-user-name-and-platform">
                     <span className="main-content-ratings-user-name">
                       Nome da pessoa
@@ -344,6 +350,7 @@ const Home = () => {
             <div></div>
           </div>
         </div>
+        <NecessaryDocs></NecessaryDocs>
       </div>
       <footer className="footer">
         <div className="footer-content">
