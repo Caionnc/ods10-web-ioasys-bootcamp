@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish&family=Poppins:wght@600;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+.necessary-docs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+
+  gap: 86px;
+
+  margin-top: 28px; /*36px + 28px from Docs Header*/
+
+  /* width: 1072px;
+  height: 300px; Docs DIV */
+}
+.necessary-docs-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  width: 300px;
+  height: 310px;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.necessary-docs-content-header {
+  display: flex;
+  flex-direction: row;
+
+  margin: 0px;
+  padding: 0px;
+  gap: 25px;
+}
+.necessary-docs-name {
+  width: 238px;
+  height: 20px;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: #404040;
+
+  border-radius: 5px;
+
+  /* Inside auto layout */
+}
+
+.necessary-docs-name-border {
+  width: 8px;
+  height: 30px;
+
+  background: #d03363;
+  border-radius: 5px;
+}
+
+.necessary-docs-description {
+  width: 238px;
+  height: 150px;
+
+  margin-left: 33px;
+  margin-right: 29px;
+  margin-top: 65px;
+
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  /* or 188% */
+
+  color: #404040;
+}
+
+.necessary-docs-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0px;
+  gap: 20.75px;
+
+  margin-left: 33px;
+  margin-top: 15px;
+}
+.necessary-docs-footer-text {
+  text-decoration: none;
+  cursor: pointer;
+
+  color: #404040;
+}
+
+.necessary-docs-footer-icon {
+  width: 13px;
+  height: 9.5px;
+}

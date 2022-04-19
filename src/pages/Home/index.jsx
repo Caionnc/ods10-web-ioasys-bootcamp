@@ -1,5 +1,6 @@
 import { Strings } from "./strings";
-import React from "react";
+import React, { useEffect, useState } from "react";
+/*import axios from "axios";*/
 
 import "./styles.css";
 
@@ -24,6 +25,21 @@ import {
 import NecessaryDocs from "../../components/NecessaryDocs";
 
 const Home = () => {
+  // const [documents, setDocuments] = useState([]);
+  // const [loading, setLoading] = useState(false); /*See if it is necessary*/
+
+  // useEffect(() => {
+  //   const fetchDocuments = async () => {
+  //     setLoading(true);
+  //     const res = await axios.get(
+  //       "https://ods10-backend-develop.herokuapp.com/api/users/99fed5de-575b-40ec-aee8-01258aa596be/documents/id"
+  //     );
+  //     setDocuments(res.data);
+  //     setLoading(false);
+  //   };
+
+  //   fetchDocuments();
+  // }, []);
   return (
     <div className="container">
       <header className="header">
@@ -213,7 +229,7 @@ const Home = () => {
           </h1>
           <p className="main-content-ratings-subtitle">
             {" "}
-            confira as valiações na íntegra da Playstore e AppleStore
+            confira as avaliações na íntegra da Playstore e AppleStore
           </p>
         </div>
         <div className="main-content-ratings-chart-container">
@@ -350,7 +366,7 @@ const Home = () => {
             <div></div>
           </div>
         </div>
-        <NecessaryDocs></NecessaryDocs>
+        <NecessaryDocs> </NecessaryDocs>
       </div>
       <footer className="footer">
         <div className="footer-content">

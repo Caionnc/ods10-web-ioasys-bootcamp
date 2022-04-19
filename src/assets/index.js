@@ -18,6 +18,7 @@ import ratingUser5 from "./images/ratingUser5.png";
 import ratingUser6 from "./images/ratingUser6.png";
 import whitePageButton from "./images/whitePageButton.png";
 import bluePageButton from "./images/bluePageButton.png";
+import arrowIcon from "./images/arrowIcon.png";
 
 
 
@@ -43,4 +44,5 @@ export {
   ratingUser6,
   whitePageButton,
   bluePageButton,
+  arrowIcon,
 };

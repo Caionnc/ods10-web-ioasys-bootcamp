@@ -3,6 +3,7 @@ import { useState } from "react";
 
 import "./styles.css";
 import { whitePageButton, bluePageButton } from "../../assets";
+import DocumentCard from "../DocumentCard";
 
 const NecessaryDocs = () => {
   const [docsPage, setdocsPage] = useState("1");
@@ -30,6 +31,7 @@ const NecessaryDocs = () => {
           </button>
         </div>
       </div>
+      <DocumentCard></DocumentCard>
     </div>
   );
 };
