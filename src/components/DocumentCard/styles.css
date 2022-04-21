@@ -159,24 +159,11 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-
-  height: 62px;
   list-style: none;
 }
 
 .necessary-docs-header-buttons-container a {
-  color: #256380;
-}
-
-.necessary-docs-header-previous-button {
-  background-image: url("../../assets/images/whitePageButton.png");
-
-  height: 62px;
-
-  /* border-width: 0px;
-  background-color: transparent; */
-
-  cursor: pointer;
+  color: transparent;
 }
 
 li.previous {
@@ -190,17 +177,30 @@ li.previous {
 
   cursor: pointer;
 }
-li.previous a.previousBttn {
+a.previousBttn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: transparent;
+  position: sticky;
+  top: 3695px; /*top 3695px -> Equals Position*/
+  left: 1125px; /*left 1125px -> Equals Position*/
   background-image: url("../../assets/images/whitePageButton.png");
+  height: 72px;
+  width: 72px;
 }
 
-
-.necessary-docs-header-next-button {
+a.nextBttn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: transparent;
+  position: sticky;
+  z-index: 1;
+  top: 3700px;
   background-image: url("../../assets/images/bluePageButton.png");
   height: 62px;
   width: 62px;
-
-  cursor: pointer;
 }
 
 li.next {
@@ -213,4 +213,15 @@ li.next {
   cursor: pointer;
   */
   cursor: pointer;
+}
+
+.pageCounter{
+  position: absolute;
+  top: auto;
+  bottom: auto;
+  right: auto;
+  left: auto;
+  z-index: 1;
+
+  margin-left: 49px;
 }

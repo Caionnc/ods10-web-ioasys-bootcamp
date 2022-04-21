@@ -14,11 +14,21 @@ const DocumentCard = () => {
   const [documentLink, setDocumentLink] = useState("");
   const [pageNumber, setPageNumber] = useState(0);
 
+  const [currentPage, setCurrentPage] = useState(1);
+
   const documentsPerPage = 3;
   const pagesVisited = pageNumber * documentsPerPage;
 
   const pageCount = Math.ceil(documents.length / documentsPerPage);
   //If you want to show the Pages
+
+  /*SIMPLE PAGINATION WITH NO PACKAGE*/
+  const indexOfLastDocument = currentPage * documentsPerPage;
+  const indexOfFirstDocument = indexOfLastDocument - documentsPerPage;
+  const currentDocument = documents.slice(
+    indexOfFirstDocument,
+    indexOfLastDocument
+  );
 
   const changePage = ({ selected }) => {
     setPageNumber(selected);
@@ -46,21 +56,9 @@ const DocumentCard = () => {
             gênero
           </p>
           <div className="necessary-docs-header-buttons-container">
-            {/* <button
-              className="necessary-docs-header-previous-buttons"
-              onClick={() => {
-                changePage(2);
-              }}
-            >
-              <img src={whitePageButton} alt="" />
-            </button>
-            <span>{`${pageNumber}/${pageCount}`}</span>
-            <button className="necessary-docs-header-next-buttons">
-              <img src={bluePageButton} alt="" onClick={() => {}} />
-            </button> */}
             <ReactPaginate
-              nextLabel="Next"
-              previousLabel="Previous"
+              nextLabel=""
+              previousLabel=""
               pageCount={pageCount}
               onPageChange={changePage}
               containerClassName={"necessary-docs-header-buttons-container"}
@@ -68,19 +66,10 @@ const DocumentCard = () => {
               nextLinkClassName={"nextBttn"}
               disabledClassName={"paginationDisabled"}
               activeClassName={"paginationActive"}
-            />
-
-            {/* <ReactPaginate
-              nextLabel="Anterior"
-              previousLabel="Proximo"
-              pageCount={pageCount}
-              onPageChange={changePage}
-              containerClassName={"necessary-docs-header-buttons-container"}
-              previousLinkClassName={"necessary-docs-header-previous-button"}
-              nextLinkClassName={"necessary-docs-header-next-button"}
-              disabledClassName={"necessary-docs-header-previous-button"}
-              activeClassName={""}
-            /> */}
+            >
+              {" "}
+            </ReactPaginate>
+            <p className="pageCounter">{`${pageNumber + 1}/${pageCount}`}</p>
           </div>
         </div>
       </div>
