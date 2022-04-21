@@ -22,7 +22,8 @@ import {
   ratingUser5,
   ratingUser6,
 } from "../../assets";
-import NecessaryDocs from "../../components/NecessaryDocs";
+import DocumentCard from "../../components/DocumentCard";
+
 
 const Home = () => {
   // const [documents, setDocuments] = useState([]);
@@ -366,7 +367,7 @@ const Home = () => {
             <div></div>
           </div>
         </div>
-        <NecessaryDocs> </NecessaryDocs>
+        <DocumentCard></DocumentCard>
       </div>
       <footer className="footer">
         <div className="footer-content">

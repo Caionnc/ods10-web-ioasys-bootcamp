@@ -4,13 +4,11 @@
 
 .necessary-docs {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
 
-  gap: 86px;
-
-  margin-top: 28px; /*36px + 28px from Docs Header*/
+  /*36px + 28px from Docs Header*/
 
   /* width: 1072px;
   height: 300px; Docs DIV */
@@ -36,6 +34,17 @@
   margin: 0px;
   padding: 0px;
   gap: 25px;
+}
+
+.necessary-docs-chart {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  gap: 86px;
+
+  margin-top: 28px;
 }
 .necessary-docs-name {
   width: 238px;
@@ -103,4 +112,105 @@
 .necessary-docs-footer-icon {
   width: 13px;
   height: 9.5px;
+}
+
+/*NECESSARY DOCS STYLES*/
+
+@import url("https://fonts.googleapis.com/css2?family=Mulish&family=Poppins:wght@600;900&display=swap");
+
+.necessary-docs-container {
+  display: flex;
+  flex-direction: column;
+
+  width: 1272px;
+  height: 672px;
+
+  background: #ffffff;
+  box-shadow: 0px 15px 30px rgba(12, 14, 43, 0.05);
+  border-radius: 61px;
+}
+
+.necessary-docs-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 64px;
+}
+
+.necessary-docs-header-title {
+  width: 688px;
+
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 150%;
+  /* or 54px */
+
+  color: #256380;
+}
+
+.necessary-docs-header-buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  height: 62px;
+  list-style: none;
+}
+
+.necessary-docs-header-buttons-container a {
+  color: #256380;
+}
+
+.necessary-docs-header-previous-button {
+  background-image: url("../../assets/images/whitePageButton.png");
+
+  height: 62px;
+
+  /* border-width: 0px;
+  background-color: transparent; */
+
+  cursor: pointer;
+}
+
+li.previous {
+  /* border-width: 0px;
+  background-color: transparent; 
+  background-image: url("../../assets/images/whitePageButton.png");
+  cursor: pointer;
+  height: 62px;
+  width: 62px;
+  */
+
+  cursor: pointer;
+}
+li.previous a.previousBttn {
+  background-image: url("../../assets/images/whitePageButton.png");
+}
+
+
+.necessary-docs-header-next-button {
+  background-image: url("../../assets/images/bluePageButton.png");
+  height: 62px;
+  width: 62px;
+
+  cursor: pointer;
+}
+
+li.next {
+  /* 
+  background-image: url("../../assets/images/bluePageButton.png");
+  height: 62px;
+  width: 62px;
+  border-width: 0px;
+  background-color: transparent; 
+  cursor: pointer;
+  */
+  cursor: pointer;
 }
