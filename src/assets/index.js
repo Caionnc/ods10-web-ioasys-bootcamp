@@ -24,6 +24,12 @@ import secondArticleCardImage from "./images/secondArticleCardImage.png";
 import thirdArticleCardImage from "./images/thirdArticleCardImage.png";
 import whitePButton from "./images/whitePButton.png";
 import purplePButton from "./images/purplePButton.png";
+import logoRetifica from "./images/logoRetifica.png";
+import logoFacebook from "./images/facebookLogo.png";
+import logoInstagram from "./images/instagramLogo.png";
+import logoTwitter from "./images/twitterLogo.png";
+
+
 
 
 
@@ -55,4 +61,8 @@ export {
   thirdArticleCardImage,
   whitePButton,
   purplePButton,
+  logoRetifica,
+  logoFacebook, 
+  logoInstagram,
+  logoTwitter,
 };

@@ -1,8 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish&family=Poppins:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Mulish&family=Poppins:wght@600;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;800;900&family=Poppins:wght@600;900&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;800;900&family=Poppins:wght@600;900&display=swap");
 body {
   margin: 0;
   box-sizing: border-box;
@@ -512,6 +511,12 @@ body {
   color: #404040;
 }
 
+/*FOOTER STYLE*/
+
+footer{
+  width: auto;
+}
+
 .footer {
   font-size: 100%;
 
@@ -540,14 +545,227 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
-.footer-content-retifica{
+.footer-content-retifica {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 
-  gap: 35px;
+  margin-right: 222.37px;
+  margin-left: 171px;
+  margin-top: -25px;
+}
 
+.footer-content-retifica-social-media {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+.footer-content-retifica-text {
+  margin-top: 35px;
+  margin-bottom: 49px;
+
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #404040;
+}
+
+.footer-content-company {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+  margin-right: 69px;
+}
+
+.footer-content-company-abouts {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.footer-content-company-abouts-title {
+  margin: 0px;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+
+  color: #404040;
+}
+
+.footer-content-company-abouts-text {
+  margin: 0px;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: #404040;
+
+  cursor: pointer;
+}
+
+/**/
+
+.footer-content-resources {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+  margin-right: 98px;
+}
+
+.footer-content-resources-abouts {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.footer-content-resources-abouts-title {
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+
+  color: #404040;
+}
+
+.footer-content-resources-abouts-text {
+  margin: 0px;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: #404040;
+
+  cursor: pointer;
+}
+
+.footer-content-suggestions {
+  display: flex;
+  flex-direction: column;
+
+  margin-right: 171px;
+
+  gap: 40px;
+}
+
+.footer-content-suggestions-info-title {
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 30px;
+
+  color: #404040;
+}
+
+.footer-content-suggestions-info-text {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #404040;
+}
+
+.footer-content-suggestions {
+  display: flex;
+  flex-direction: column;
+
+  gap: 40px;
+}
+
+.footer-content-suggestions-email {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 35px;
+  gap: 15px;
+}
+
+.footer-content-suggestions-email-input {
+  /* width: 205px;
+  height: 50px; */
+
+  background: #f0f1ec;
+  border-radius: 72px;
+
+  height: 50px;
+  padding-left: 24px;
+  border: 0px;
+
+  border-color: #f0f1ec;
+  border-style: solid;
+
+  cursor: pointer;
+}
+
+.footer-content-suggestions-email-input:focus-visible {
+  border: none;
+  border-color: transparent;
+  resize: none;
+  outline: none;
+}
+
+.footer-content-suggestions-email-signin {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  color: #ffffff;
+  background: #f65097;
+  border-radius: 80px;
+
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 20px;
+  padding-right: 21px;
+
+  width: 119px;
+  height: 50px;
+
+  border-width: 0px;
+  border-color: #d03363;
+
+  cursor: pointer;
+}
+
+.footer-content-suggestions-email-signin-text {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height */
+
+  color: #ffffff;
 }

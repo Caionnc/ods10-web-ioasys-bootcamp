@@ -21,6 +21,10 @@ import {
   ratingUser4,
   ratingUser5,
   ratingUser6,
+  logoRetifica,
+  logoFacebook,
+  logoInstagram,
+  logoTwitter,
 } from "../../assets";
 import DocumentCard from "../../components/DocumentCard";
 import { ArticlesChart, Faq } from "../../components";
@@ -374,12 +378,59 @@ const Home = () => {
       <footer className="footer">
         <div className="footer-content">
           <div className="footer-content-retifica">
-            <img src="" alt="" />
-            <p></p>
+            <img src={logoRetifica} alt="Retifica" />
+            <p className="footer-content-retifica-text">
+              Desburocratizando o <br></br> processo de retificação para{" "}
+              <br></br> pessoas trans e travestis.
+            </p>
             <div className="footer-content-retifica-social-media">
-              <img src="" alt="" />
-              <img src="" alt="" />
-              <img src="" alt="" />
+              <img src={logoFacebook} alt="Facebook" />
+              <img src={logoInstagram} alt="Instagram" />
+              <img src={logoTwitter} alt="Twitter" />
+            </div>
+          </div>
+          <div className="footer-content-company">
+            <p className="footer-content-company-abouts-title">Companhia</p>
+            <div className="footer-content-company-abouts">
+              <p className="footer-content-company-abouts-text">Sobre</p>
+              <p className="footer-content-company-abouts-text">Download</p>
+              <p className="footer-content-company-abouts-text">Documentos</p>
+              <p className="footer-content-company-abouts-text">Artigos</p>
+            </div>
+          </div>
+          <div className="footer-content-resources">
+            <p className="footer-content-resources-abouts-title">Recursos</p>
+            <div className="footer-content-resources-abouts">
+              <p className="footer-content-resources-abouts-text">FAQ</p>
+              <p className="footer-content-resources-abouts-text">
+                Privacidade
+              </p>
+              <p className="footer-content-resources-abouts-text">
+                Termos de uso
+              </p>
+            </div>
+          </div>
+          <div className="footer-content-suggestions">
+            <p className="footer-content-suggestions-info-title">
+              Dúvidas ou sugestões?
+            </p>
+            <div className="footer-content-suggestions-info">
+              <p className="footer-content-suggestions-info-text">
+                Cadastre seu e-mail e entraremos em contato.<br></br> Estamos
+                aqui para nos fortalecer.
+              </p>
+              <div className="footer-content-suggestions-email">
+                <input
+                  type="text"
+                  placeholder="Email"
+                  className="footer-content-suggestions-email-input"
+                />
+                <button className="footer-content-suggestions-email-signin">
+                  <span className="footer-content-suggestions-email-signin-text">
+                    Inscreva-se
+                  </span>
+                </button>
+              </div>
             </div>
           </div>
         </div>
