@@ -160,10 +160,11 @@
   justify-content: center;
   align-items: center;
   list-style: none;
+  
 }
 
 .necessary-docs-header-buttons-container a {
-  color: transparent;
+  /*color transparent*/
 }
 
 li.previous {
@@ -215,7 +216,24 @@ li.next {
   cursor: pointer;
 }
 
-.pageCounter{
+li.break {
+  color: transparent;
+}
+li {
+  color: transparent;
+}
+
+li.paginationActive {
+  color: transparent;
+}
+a{
+  color: transparent;
+}
+a.paginationActive{
+  color: transparent;
+}
+
+.pageCounter {
   position: absolute;
   top: auto;
   bottom: auto;
@@ -224,4 +242,9 @@ li.next {
   z-index: 1;
 
   margin-left: 49px;
+}
+
+.page2-a{
+  color: transparent;
+  visibility: hidden !important;
 }

@@ -23,6 +23,7 @@ import {
   ratingUser6,
 } from "../../assets";
 import DocumentCard from "../../components/DocumentCard";
+import { ArticlesChart } from "../../components";
 
 
 const Home = () => {
@@ -368,6 +369,7 @@ const Home = () => {
           </div>
         </div>
         <DocumentCard></DocumentCard>
+        <ArticlesChart></ArticlesChart>
       </div>
       <footer className="footer">
         <div className="footer-content">

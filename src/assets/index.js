@@ -19,6 +19,11 @@ import ratingUser6 from "./images/ratingUser6.png";
 import whitePageButton from "./images/whitePageButton.png";
 import bluePageButton from "./images/bluePageButton.png";
 import arrowIcon from "./images/arrowIcon.png";
+import firstArticleCardImage from "./images/firstArticleCardImage.png";
+import secondArticleCardImage from "./images/secondArticleCardImage.png";
+import thirdArticleCardImage from "./images/thirdArticleCardImage.png";
+import whitePButton from "./images/whitePButton.png";
+import purplePButton from "./images/purplePButton.png";
 
 
 
@@ -45,4 +50,9 @@ export {
   whitePageButton,
   bluePageButton,
   arrowIcon,
+  firstArticleCardImage,
+  secondArticleCardImage,
+  thirdArticleCardImage,
+  whitePButton,
+  purplePButton,
 };
