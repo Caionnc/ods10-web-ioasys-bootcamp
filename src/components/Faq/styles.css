@@ -1,0 +1,9 @@
+.faq {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  width: 1272px;
+  height: 566px;
+}

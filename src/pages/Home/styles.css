@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish&family=Poppins:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Mulish&family=Poppins:wght@600;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;800;900&family=Poppins:wght@600;900&display=swap");
 
 body {
   margin: 0;
@@ -511,30 +512,42 @@ body {
   color: #404040;
 }
 
-footer {
-  /*position: fixed;*/
-  bottom: 0px;
-  width: 100%;
-  margin-left: 0;
-  margin-right: 0;
-  height: 100px;
-}
 .footer {
-  padding: 32px;
-  background-color: #e00f63;
   font-size: 100%;
 
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
-  gap: 30px;
+  align-items: center;
+
+  bottom: 0px;
+  width: 100%;
+  margin: 0px;
+  height: 433px;
+
+  /* position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%; */
+
+  background: #ffffff;
+  box-shadow: 0px 15px 30px rgba(12, 14, 43, 0.05);
+  background-color: #ffffff;
+  border-radius: 20px 20px 0px 0px;
 }
 .footer-content {
   display: flex;
-  flex-direction: column;
-  gap: 10px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
-.footer-content-text {
-  margin: 0px 0px 0px 0px;
+
+.footer-content-retifica{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  gap: 35px;
+
 }

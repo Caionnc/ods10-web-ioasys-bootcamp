@@ -23,8 +23,7 @@ import {
   ratingUser6,
 } from "../../assets";
 import DocumentCard from "../../components/DocumentCard";
-import { ArticlesChart } from "../../components";
-
+import { ArticlesChart, Faq } from "../../components";
 
 const Home = () => {
   // const [documents, setDocuments] = useState([]);
@@ -370,22 +369,19 @@ const Home = () => {
         </div>
         <DocumentCard></DocumentCard>
         <ArticlesChart></ArticlesChart>
+        <Faq></Faq>
       </div>
       <footer className="footer">
         <div className="footer-content">
-          <p className="footer-content-text">Termos de Serviços</p>
-          <p className="footer-content-text">Política de Privacidade</p>
-          <p className="footer-content-text">Safe and Fair Play Policy</p>
-        </div>
-        <div className="footer-content">
-          <p className="footer-content-text">Sobre nós</p>
-          <p className="footer-content-text">Depoimentos</p>
-          <p className="footer-content-text">Artigos</p>
-        </div>
-        <div className="footer-content">
-          <p className="footer-content-text">Instagram</p>
-          <p className="footer-content-text">Facebook</p>
-          <p className="footer-content-text">Linkedin</p>
+          <div className="footer-content-retifica">
+            <img src="" alt="" />
+            <p></p>
+            <div className="footer-content-retifica-social-media">
+              <img src="" alt="" />
+              <img src="" alt="" />
+              <img src="" alt="" />
+            </div>
+          </div>
         </div>
       </footer>
     </div>
