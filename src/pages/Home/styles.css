@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish&family=Poppins:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Mulish&family=Poppins:wght@600;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;800;900&family=Poppins:wght@600;900&display=swap");
 body {
   margin: 0;
   box-sizing: border-box;
@@ -29,15 +29,15 @@ body {
   justify-content: flex-start;
   align-items: center;
 
-  width: 1272px; /*Reponsividade Corrigir 1272px*/
-  height: 82px;
+  width: 1437px; /*1437px*/
+  height: 80px;
 
   background: #ffffff;
   box-shadow: 0px 15px 30px rgba(12, 14, 43, 0.05);
   border-radius: 50px;
 
-  margin-left: 120px;
-  margin-right: 120px;
+  margin-left: 37px;
+  margin-right: 37px;
   margin-top: 51px;
 }
 
@@ -50,6 +50,16 @@ body {
 .header-menu {
   display: flex;
   gap: 35px;
+}
+
+.header-menu-item-beginning {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 25px;
+  color: #4435ac;
+  text-decoration: none;
 }
 
 .header-menu-item {
@@ -66,16 +76,17 @@ body {
 .header-menu-button {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
 
-  padding: 11px 43px;
+  padding: 11px, 43px, 11px, 43px;
   height: 52px;
+  width: 255px;
 
-  background: #256380;
+  background: #4435ac;
   border-radius: 50px;
   border-width: 0px;
-  border-color: #256380;
+  border-color: #4435ac;
 
   margin-left: 60px;
 
@@ -107,8 +118,11 @@ body {
   align-items: center;
   justify-content: center;
 
+  width: 1512px;
+  height: 805px;
+
   margin-top: 55px;
-  margin-left: 120px;
+  margin-left: 60px;
 }
 .main-content-texts {
   display: flex;
@@ -131,7 +145,7 @@ body {
   margin-bottom: 17px;
   margin-top: 0px;
 
-  color: #256380;
+  color: #4435ac;
 }
 
 .main-content-text-2 {
@@ -149,17 +163,22 @@ body {
 .main-content-buttons {
   display: flex;
   flex-direction: row;
+  margin-top: 50px;
+
   gap: 19px;
 }
 
 .main-content-button-1 {
-  padding: 11px 43px;
-  height: 52px;
+  padding: 20px 24px;
+  width: 248px;
+  height: 70px;
 
-  background: #d03363;
+  margin-top: 50px;
+
+  background: #f65097;
   border-radius: 50px;
   border-width: 0px;
-  border-color: #d03363;
+  border-color: #f65097;
 
   cursor: pointer;
 }
@@ -180,13 +199,18 @@ body {
   align-items: flex-start;
   justify-content: center;
 
-  padding: 11px 43px;
-  height: 52px;
+  padding: 20px 24px;
+
+  width: 348px;
+  height: 70px;
+
+  margin-top: 50px;
 
   background: #ffffff;
   border-radius: 50px;
   border-width: 1px;
-  border-color: #d03363;
+  border-color: #f65097;
+  box-sizing: border-box;
   border-style: solid;
 
   cursor: pointer;
@@ -239,7 +263,7 @@ body {
   font-size: 60px;
   line-height: 75px;
 
-  color: #256380;
+  color: #4435ac;
 }
 
 .main-second-content-texts-text {
@@ -343,18 +367,18 @@ body {
 }
 .main-content-download-texts-title {
   width: 611px;
-  height: 52px;
+  height: 75px;
 
-  font-family: "Mulish";
+  font-family: "Mulish", sans-serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 60px;
-  line-height: 52px;
+  font-size: 59px;
+  line-height: 75px;
   /* identical to box height, or 87% */
 
   text-align: center;
 
-  color: #256380;
+  color: #4435ac;
 }
 .main-content-download-texts-text {
   width: 599px;
@@ -392,16 +416,15 @@ body {
 
   margin-bottom: 20px;
 
-  font-family: "Mulish", sans-serif;
+  font-family: "Mulish";
   font-style: normal;
   font-weight: 900;
   font-size: 60px;
-  line-height: 52px;
+  line-height: 75px;
+  text-align: center;
   /* identical to box height, or 87% */
 
-  text-align: center;
-
-  color: #256380;
+  color: #4435ac;
 }
 .main-content-ratings-subtitle {
   width: 1034px;
@@ -511,30 +534,263 @@ body {
   color: #404040;
 }
 
+/*FOOTER STYLE*/
+
 footer {
-  /*position: fixed;*/
-  bottom: 0px;
   width: 100%;
-  margin-left: 0;
-  margin-right: 0;
-  height: 100px;
 }
+
 .footer {
-  padding: 32px;
-  background-color: #e00f63;
   font-size: 100%;
 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  bottom: 0px;
+  width: 100%;
+  margin: 0px;
+  height: 433px;
+
+  margin-top: 250px;
+
+  /* position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%; */
+
+  background: #ffffff;
+  box-shadow: 0px 15px 30px rgba(12, 14, 43, 0.05);
+  background-color: #ffffff;
+  border-radius: 20px 20px 0px 0px;
+}
+.footer-content {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: flex-start;
-  gap: 30px;
 }
-.footer-content {
+
+.footer-content-retifica {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  justify-content: space-between;
+
+  margin-right: 222.37px;
+  margin-left: 171px;
+  margin-top: -25px;
 }
-.footer-content-text {
-  margin: 0px 0px 0px 0px;
+
+.footer-content-retifica-social-media {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+.footer-content-retifica-text {
+  margin-top: 35px;
+  margin-bottom: 49px;
+
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #404040;
+}
+
+.footer-content-company {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+  margin-right: 69px;
+}
+
+.footer-content-company-abouts {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.footer-content-company-abouts-title {
+  margin: 0px;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+
+  color: #404040;
+}
+
+.footer-content-company-abouts-text {
+  margin: 0px;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: #404040;
+
+  cursor: pointer;
+}
+
+/**/
+
+.footer-content-resources {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+  margin-right: 98px;
+}
+
+.footer-content-resources-abouts {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.footer-content-resources-abouts-title {
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+
+  color: #404040;
+}
+
+.footer-content-resources-abouts-text {
+  margin: 0px;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: #404040;
+
+  cursor: pointer;
+}
+
+.footer-content-suggestions {
+  display: flex;
+  flex-direction: column;
+
+  margin-right: 171px;
+
+  gap: 40px;
+}
+
+.footer-content-suggestions-info-title {
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 30px;
+
+  color: #404040;
+}
+
+.footer-content-suggestions-info-text {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #404040;
+}
+
+.footer-content-suggestions {
+  display: flex;
+  flex-direction: column;
+
+  gap: 40px;
+}
+
+.footer-content-suggestions-email {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 35px;
+  gap: 15px;
+}
+
+.footer-content-suggestions-email-input {
+  /* width: 205px;
+  height: 50px; */
+
+  background: #f0f1ec;
+  border-radius: 72px;
+
+  height: 50px;
+  padding-left: 24px;
+  border: 0px;
+
+  border-color: #f0f1ec;
+  border-style: solid;
+
+  cursor: pointer;
+}
+
+.footer-content-suggestions-email-input:focus-visible {
+  border: none;
+  border-color: transparent;
+  resize: none;
+  outline: none;
+}
+
+.footer-content-suggestions-email-signin {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  color: #ffffff;
+  background: #f65097;
+  border-radius: 80px;
+
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 20px;
+  padding-right: 21px;
+
+  width: 119px;
+  height: 50px;
+
+  border-width: 0px;
+  border-color: #d03363;
+
+  cursor: pointer;
+}
+
+.footer-content-suggestions-email-signin-text {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height */
+
+  color: #ffffff;
 }
