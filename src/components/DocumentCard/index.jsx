@@ -5,7 +5,7 @@ import axios from "axios";
 import ReactPaginate from "react-paginate";
 
 import "./styles.css";
-import { arrowIcon, whitePageButton, bluePageButton } from "../../assets";
+import { arrowIcon, whitePageButton, bluePageButton, newArrowIcon } from "../../assets";
 
 const DocumentCard = () => {
   const [documents, setDocuments] = useState([]);
@@ -93,10 +93,10 @@ const DocumentCard = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Link aqui
+                    Baixar modelo
                   </a>
                   <img
-                    src={arrowIcon}
+                    src={newArrowIcon}
                     alt="Click Here"
                     className="necessary-docs-footer-icon"
                   />
