@@ -513,8 +513,8 @@ body {
 
 /*FOOTER STYLE*/
 
-footer{
-  width: auto;
+footer {
+  width: 100%;
 }
 
 .footer {
@@ -529,6 +529,8 @@ footer{
   width: 100%;
   margin: 0px;
   height: 433px;
+
+  margin-top: 250px;
 
   /* position: absolute;
   left: 0%;

@@ -1,9 +1,242 @@
 .faq {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   padding: 0px;
 
   width: 1272px;
   height: 566px;
+
+  margin-bottom: 250px;
 }
+
+.faq-question-column {
+  display: flex;
+  flex-direction: column;
+
+  gap: 10px;
+}
+
+.faq-question {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  background: #ffffff;
+  border: 1px solid #cfcfcf;
+  box-sizing: border-box;
+  box-shadow: 0px 15px 30px rgba(12, 14, 43, 0.05);
+  border-radius: 10px;
+}
+
+.faq-question-hidden {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  height: 74px;
+
+  background: #ffffff;
+  border: 1px solid #cfcfcf;
+  box-sizing: border-box;
+  box-shadow: 0px 15px 30px rgba(12, 14, 43, 0.05);
+  border-radius: 10px;
+}
+
+.faq-title {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 75px;
+  text-align: center;
+
+  color: #4435ac;
+
+  margin-bottom: 6px;
+}
+
+.faq-subtitle {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+
+  color: #404040;
+
+  margin-bottom: 50px;
+}
+
+.faq-subtitle-theme {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+
+  color: #404040;
+}
+
+.faq-question-text {
+  margin-left: 38.96px;
+  margin-top: 37px;
+
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 22px;
+  /* identical to box height, or 92% */
+
+  color: #404040;
+}
+
+.faq-question-answer-text {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 31px;
+  /* or 194% */
+
+  margin-bottom: 27px;
+
+  height: auto;
+
+  letter-spacing: -0.02em;
+}
+
+.faq-question-answer-text-hidden {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 31px;
+  /* or 194% */
+
+  margin-bottom: 24px;
+
+  letter-spacing: -0.02em;
+  visibility: hidden;
+}
+
+.faq-question-button-image {
+  background: #ffffff;
+  border-color: #ffffff;
+  border-width: none;
+  border-style: none;
+
+  width: 30px;
+  height: 25px;
+
+  margin-right: 31.48px;
+  margin-top: 37px;
+
+  cursor: pointer;
+
+  /*background-image: url(../../assets/images/plus.png);*/
+}
+
+/*REACT NAVIGATE*/
+.faq-pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  gap: 10px;
+}
+.faq-paginate-buttons {
+  margin-top: 38px;
+}
+
+li.previous {
+  /* border-width: 0px;
+  background-color: transparent; 
+  background-image: url("../../assets/images/whitePageButton.png");
+  cursor: pointer;
+  height: 62px;
+  width: 62px;
+  */
+
+  cursor: pointer;
+}
+a.faqPreviousBttn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: transparent;
+  position: relative;
+  
+  background-image: url("../../assets/images/whitePButton.png");
+  height: 62px;
+  width: 62px;
+}
+
+a.faqNextBttn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: transparent;
+  position: sticky;
+  z-index: 1;
+  top: 3700px;
+  background-image: url("../../assets/images/purplePButton.png");
+  height: 62px;
+  width: 62px;
+}
+
+li.next {
+  /* 
+  background-image: url("../../assets/images/bluePageButton.png");
+  height: 62px;
+  width: 62px;
+  border-width: 0px;
+  background-color: transparent; 
+  cursor: pointer;
+  */
+  color: transparent;
+}
+
+li.break {
+  color: transparent;
+}
+li {
+  color: transparent;
+}
+
+li.faqPaginationActive {
+  border-bottom: 1px solid #4435ac;
+}
+a {
+  color: #404040;
+  cursor: pointer;
+}
+
+a.break {
+  color: transparent;
+}
+a.faqPaginationActive {
+  color: red;
+}
+
+/* .faqPageCounter {
+  position:absolute;
+  top: 5369px;
+  bottom: auto;
+  right: 800px;
+  left: auto;
+  z-index: 0;
+
+  margin-left: 49px;
+}
+
+.page2-a {
+  color: transparent;
+  visibility: hidden !important;
+} */

@@ -61,6 +61,7 @@ const DocumentCard = () => {
               previousLabel=""
               pageCount={pageCount}
               onPageChange={changePage}
+              marginPagesDisplayed={5}
               containerClassName={"necessary-docs-header-buttons-container"}
               previousLinkClassName={"previousBttn"}
               nextLinkClassName={"nextBttn"}
@@ -69,7 +70,6 @@ const DocumentCard = () => {
             >
               {" "}
             </ReactPaginate>
-            <p className="pageCounter">{`${pageNumber + 1}/${pageCount}`}</p>
           </div>
         </div>
       </div>

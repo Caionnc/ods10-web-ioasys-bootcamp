@@ -160,7 +160,6 @@
   justify-content: center;
   align-items: center;
   list-style: none;
-  
 }
 
 .necessary-docs-header-buttons-container a {
@@ -183,12 +182,12 @@ a.previousBttn {
   justify-content: center;
   align-items: center;
   color: transparent;
-  position: sticky;
+  /*position: sticky;
   top: 3695px; /*top 3695px -> Equals Position*/
-  left: 1125px; /*left 1125px -> Equals Position*/
-  background-image: url("../../assets/images/whitePageButton.png");
-  height: 72px;
-  width: 72px;
+  /*left: 1125px; /*left 1125px -> Equals Position*/
+  background-image: url("../../assets/images/whitePButton.png");
+  height: 62px;
+  width: 62px;
 }
 
 a.nextBttn {
@@ -199,7 +198,7 @@ a.nextBttn {
   position: sticky;
   z-index: 1;
   top: 3700px;
-  background-image: url("../../assets/images/bluePageButton.png");
+  background-image: url("../../assets/images/purplePButton.png");
   height: 62px;
   width: 62px;
 }
@@ -224,13 +223,14 @@ li {
 }
 
 li.paginationActive {
-  color: transparent;
+  border-bottom: 1px solid #4435ac;
 }
-a{
-  color: transparent;
+a {
+  color: #404040;
+  cursor: pointer;
 }
-a.paginationActive{
-  color: transparent;
+a.paginationActive {
+  border-bottom: 1px solid #4435ac;
 }
 
 .pageCounter {
@@ -244,7 +244,7 @@ a.paginationActive{
   margin-left: 49px;
 }
 
-.page2-a{
+.page2-a {
   color: transparent;
   visibility: hidden !important;
 }

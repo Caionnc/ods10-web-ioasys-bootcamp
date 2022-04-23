@@ -28,6 +28,9 @@ import logoRetifica from "./images/logoRetifica.png";
 import logoFacebook from "./images/facebookLogo.png";
 import logoInstagram from "./images/instagramLogo.png";
 import logoTwitter from "./images/twitterLogo.png";
+import plus from "./images/plus.png";
+import minus from "./images/minus.png";
+
 
 
 
@@ -65,4 +68,6 @@ export {
   logoFacebook, 
   logoInstagram,
   logoTwitter,
+  plus,
+  minus,
 };
