@@ -1,4 +1,20 @@
 <<<<<<< HEAD
+
+
+O "Re.tifica" foi resultado do projeto final do 4º Ioasys Bootcamp, onde o mesmo é um facilitador no processo de retificação de documentação para pessoas trans e travestis. Através do  aplicativo, você tem acesso a toda informação e orientação necessária para iniciar a sua jornada no processo de alteração de nome e/ou gênero na Certidão de Nascimento.
+
+<i>Obsevação: O produto principal foi idealizado como um aplicativo móvel e esta é LandingPage do produto, o qual pode se obter mais informações e da qual fui responsável por criar.</i>
+
+O site desenvolvido é uma landing page por padrão, com barra suspensa, informações sobre o aplicativo, documentações necessárias(requisitadas via API) e uma FAQ<b>(em produção)</b>.
+
+O 4º Bootcamp Ioasys foi um momento de imersão e aprimoramento dos conhecimentos em Front-end. Onde no começo recebemos treinamento acerca de Web Vanilla(JS, HTML, CSS) e depois abordando o ReactJS + Axios. Ao final do camp, após apresentação do projeto, conseguimos ficar entre os 3 melhores projetos dentre 8 equipes, sendo cada equipe com 11 participantes de todas as frentes de tecnologia, como Front-end, Back-end, Produto, Scrum master e etc.
+
+Para rodar o projeto em seu computador, basta seguir o passo-a-passo abaixo!
+
+Melhorias ou sugestões, só falar!
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
