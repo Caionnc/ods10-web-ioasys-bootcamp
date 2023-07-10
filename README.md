@@ -1,19 +1,22 @@
-<<<<<<< HEAD
+<div align="center">
+  <a href="https://github.com/Caionnc/heeds_tech_challenge">
+    <img src="src/assets/images/retifica.jpeg" alt="Logo" width="80" height="80">
+  </a>
 
+<h3 align="center">Re.tifica • 4º Ioasys Bootcamp Final Challenge </h3>
 
-O "Re.tifica" foi resultado do projeto final do 4º Ioasys Bootcamp, onde o mesmo é um facilitador no processo de retificação de documentação para pessoas trans e travestis. Através do  aplicativo, você tem acesso a toda informação e orientação necessária para iniciar a sua jornada no processo de alteração de nome e/ou gênero na Certidão de Nascimento.
+ <p align="center">
+    "Re.tifica" was the result of the final project of the 4th Ioasys Bootcamp, where it is a facilitator in the documentation rectification process for trans and transvestites. Through the application, you have access to all the information and guidance you need to start your journey in the process of changing your name and/or gender on your Birth Certificate.
 
-<i>Obsevação: O produto principal foi idealizado como um aplicativo móvel e esta é LandingPage do produto, o qual pode se obter mais informações e da qual fui responsável por criar.</i>
+<i>Note: The main product was designed as a mobile application and this is the product's LandingPage, which you can get more information about and which I was responsible for creating.</i>
 
-O site desenvolvido é uma landing page por padrão, com barra suspensa, informações sobre o aplicativo, documentações necessárias(requisitadas via API) e uma FAQ<b>(em produção)</b>.
+The 4th Bootcamp Ioasys was a moment of immersion and improvement of Front-end knowledge. Where in the beginning we received training about Web Vanilla (JS, HTML, CSS) and then approaching ReactJS + Axios. At the end of the camp, after presenting the project, we managed to be among the top 3 projects among 8 teams, each team with 11 participants from all technology fronts, such as Front-end, Back-end, Product, Scrum master, etc.
 
-O 4º Bootcamp Ioasys foi um momento de imersão e aprimoramento dos conhecimentos em Front-end. Onde no começo recebemos treinamento acerca de Web Vanilla(JS, HTML, CSS) e depois abordando o ReactJS + Axios. Ao final do camp, após apresentação do projeto, conseguimos ficar entre os 3 melhores projetos dentre 8 equipes, sendo cada equipe com 11 participantes de todas as frentes de tecnologia, como Front-end, Back-end, Produto, Scrum master e etc.
+To run the project on your computer, just follow the step-by-step instructions below!
 
-Para rodar o projeto em seu computador, basta seguir o passo-a-passo abaixo!
+Improvements or suggestions, just say!</p>
 
-Melhorias ou sugestões, só falar!
-
-
+</div>
 
 # Getting Started with Create React App
 
@@ -84,7 +87,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
+# This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
 # ods10-web-ioasys-bootcamp
->>>>>>> 1643470b273ff40c1043d898dc85143d24991a27
+
+> > > > > > > 1643470b273ff40c1043d898dc85143d24991a27
